@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Inter">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:lineHeight">22sp</item>
+    </style>
+</resources>
