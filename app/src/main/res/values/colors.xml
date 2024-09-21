@@ -3,5 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="btn">#E7865D</color>
-
+    <color name="btn2">#6CC349</color>
+    <color name="btn3">#A33CC7</color>
 </resources>

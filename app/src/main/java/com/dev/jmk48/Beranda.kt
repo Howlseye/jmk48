@@ -1,12 +1,13 @@
 package com.dev.jmk48
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
-class MainMenu : AppCompatActivity() {
+class Beranda : AppCompatActivity() {
     private lateinit var logo : TextView
     private lateinit var btnmain : Button
     private lateinit var btnset : Button
@@ -27,5 +28,13 @@ class MainMenu : AppCompatActivity() {
         btnset.backgroundTintList = btncolor
         btnexit.backgroundTintList = btncolor
 
+        btnmain.setOnClickListener {
+            val intent = Intent(this@Beranda, Main::class.java)
+            startActivity(intent)
+        }
+        btnset.setOnClickListener {
+            val intent = Intent(this@Beranda, Setting::class.java)
+            startActivity(intent)
+        }
     }
 }
