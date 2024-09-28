@@ -49,20 +49,94 @@
         app:layout_constraintVertical_bias="0.254"
         app:srcCompat="@mipmap/entah_foreground" />
 
-    <EditText
-        android:id="@+id/editTextTextMultiLine"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:gravity="center"
-        android:inputType="textMultiLine"
-
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="37dp"
+        android:layout_height="39dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.654" />
+        app:layout_constraintVertical_bias="0.874"
+        app:srcCompat="@mipmap/close" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="37dp"
+        android:layout_height="39dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.874"
+        app:srcCompat="@mipmap/iyah" />
+
+    <LinearLayout
+        android:id="@+id/bdrjk"
+        android:layout_width="328dp"
+        android:layout_height="168dp"
+        android:background="@drawable/txt"
+        android:backgroundTint="@color/btn"
+        android:orientation="vertical"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.674">
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="320dp"
+            android:layout_height="160dp"
+            android:background="@drawable/txt"
+            android:backgroundTint="#D3D3D3"
+
+            android:clickable="false"
+
+            android:contextClickable="false"
+            android:editable="false"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:lineSpacingExtra="5sp"
+            android:linksClickable="false"
+            android:longClickable="false"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bdrtxt"
+        android:layout_width="248dp"
+        android:layout_height="56dp"
+        android:background="@drawable/txt"
+        android:backgroundTint="@color/btn"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/jmbt"
+            android:layout_width="240dp"
+            android:layout_height="48dp"
+            android:background="@drawable/txt"
+            android:backgroundTint="@color/white"
+            android:textAlignment="center" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
