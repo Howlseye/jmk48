@@ -136,7 +136,9 @@
             android:layout_height="48dp"
             android:background="@drawable/txt"
             android:backgroundTint="@color/white"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
