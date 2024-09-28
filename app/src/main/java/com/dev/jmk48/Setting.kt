@@ -19,7 +19,7 @@ class Setting : AppCompatActivity() {
         close = findViewById(R.id.close)
         close.setOnClickListener {
             var intent = Intent(this@Setting, Beranda::class.java)
-            startActivity(intent)
+            finish()
         }
 
     }

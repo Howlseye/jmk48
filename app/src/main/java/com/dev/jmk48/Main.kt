@@ -33,7 +33,7 @@ class Main : AppCompatActivity() {
         }
         close.setOnClickListener {
             val intent = Intent(this@Main, Beranda::class.java)
-            startActivity(intent)
+            finish()
         }
 
     }
